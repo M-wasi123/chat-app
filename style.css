@@ -132,8 +132,11 @@ display: none;
     display: none;
 }
 @media only screen and (max-width:500px) {
+    #chat-container{
+        overflow: hidden;
+    }
     .messages {
-        height: 95vh;
+        height: 80vh;
     }
     
     #chat-box {
