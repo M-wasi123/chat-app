@@ -5,7 +5,7 @@ let userInput3 = document.getElementById('user-input3')
 let sendBotton = document.getElementById('send-btn')
 let sendBotton2 = document.getElementById('send-btn2')
 let sendBotton3 = document.getElementById('send-btn3')
-
+let chatBox = document.getElementById('chat-box')
 
 
 const gfsObjectArr = {
