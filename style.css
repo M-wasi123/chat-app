@@ -136,7 +136,7 @@ display: none;
         overflow: hidden;
     }
     .messages {
-        height: 80vh;
+        height: 100vh;
     }
     
     #chat-box {
