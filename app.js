@@ -474,7 +474,6 @@ function commercial() {
     userInput.value = ''
   }
 }
-
 // function chose() {
 
 //    if (userInput.value == 1) {

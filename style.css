@@ -31,22 +31,33 @@ body {
     background-color: #cbeba1;
     border:none;
 }
+#user-message{
+    display: flex;
+    flex-direction: column;
+}
 .user{
-    padding: 0px 10px;
+    width: auto;
+    padding-right: 10px;
+    padding-left:70px;
+    align-self: flex-end;
     text-align: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:medium;
     margin-top: 5px;
     list-style: none;
+    border-radius: 20px;
+    background-color: beige;
+    
 }
 .auto-answer{
     width: 70%;
-    padding: 0px 10px;
+    padding: 5px 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium; 
     margin-top: 5px;
     list-style: none;
-
+    border-radius: 20px;
+    background-color: beige;
 }
 .send-message{
     width: 100%;
