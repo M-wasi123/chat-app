@@ -131,3 +131,12 @@ display: none;
     background-color: rgb(240, 202, 157);
     display: none;
 }
+@media only screen and (max-width:500px) {
+    .messages {
+        height: 95vh;
+    }
+    
+    #chat-box {
+        height: 90vh;
+    } 
+}
