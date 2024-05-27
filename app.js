@@ -481,4 +481,3 @@ function commercial() {
     userInput.value = ''
   }
 }
-chatBox.scrollTop = 0;
