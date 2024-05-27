@@ -154,7 +154,8 @@ display: none;
         height: 90vh;
     }
      */
-    /* #chat-box {
-        height: 80vh;
-    }  */
+    #chat-box {
+       max-height: 80vh;
+       height: 100%;
+    } 
 }
