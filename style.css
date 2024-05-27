@@ -59,6 +59,10 @@ body {
     border-radius: 20px;
     background-color: beige;
 }
+#end{
+    position: fixed;
+    bottom: 2px;
+}
 .send-message{
     width: 100%;
     display: flex;
