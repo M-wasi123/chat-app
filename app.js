@@ -132,6 +132,7 @@ if (userInput3.value === '') {
 })
 sendBotton.addEventListener('click',function () {
     userMessage.innerHTML +=`<li class="user">${userInput.value}</li>`
+    autoScroll() 
       if (userInput.value == 1) {
       userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.residential}</li>`
       userInput.value = ''
@@ -171,6 +172,7 @@ function handleEnterKey(event) {
         event.preventDefault();
         document.getElementById('send-btn');
         userMessage.innerHTML +=`<li class="user">${userInput.value}</li>`
+        autoScroll() 
           if (userInput.value == 1) {
           userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.residential}</li>`
           userInput.value = ''
@@ -213,6 +215,7 @@ function handleEnterKey(event) {
 document.addEventListener('keydown',handleEnterKey)
 sendBotton2.addEventListener('click',function () {
     userMessage.innerHTML +=`<li class="user">${userInput2.value}</li>`
+    autoScroll() 
     if (userInput2.value == 1) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block1}</li>`
       userInput.style.display = 'block'
@@ -278,6 +281,7 @@ function handlEnterKey(even) {
       even.preventDefault();
       document.getElementById('send-btn2');
       userMessage.innerHTML +=`<li class="user">${userInput2.value}</li>`
+      autoScroll() 
       if (userInput2.value == 1) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block1}</li>`
         userInput.style.display = 'block'
@@ -342,6 +346,7 @@ function handlEnterKey(even) {
 document.addEventListener('keydown',handlEnterKey)
 sendBotton3.addEventListener('click',function () {
     userMessage.innerHTML +=`<li class="user">${userInput3.value}</li>`
+    autoScroll() 
     if (userInput3.value == 1) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.jodiaBazar}</li>`
       userInput.style.display = 'block'
@@ -407,6 +412,7 @@ function handEnterKey(eve) {
       eve.preventDefault();
       document.getElementById('send-btn3');
       userMessage.innerHTML +=`<li class="user">${userInput3.value}</li>`
+      autoScroll() 
       if (userInput3.value == 1) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.jodiaBazar}</li>`
         userInput.style.display = 'block'
@@ -480,4 +486,8 @@ function commercial() {
     userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.commercial}</li>`
     userInput.value = ''
   }
+}
+
+function autoScroll() {
+chatBox.scrollTo(0, 100000)
 }
