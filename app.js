@@ -481,17 +481,4 @@ function commercial() {
     userInput.value = ''
   }
 }
-// function chose() {
-
-//    if (userInput.value == 1) {
-//     if (userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.residential}</li>`) {
-//        userInput.value
-//     }
-
-//    }else if (userInput.value == 2) {
-//     userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.commercial}</li>` 
-//   }
-//    else{
-//     userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
-//    }
-// }
+chatBox.scrollTop = 0;
