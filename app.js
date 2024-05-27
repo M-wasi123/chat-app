@@ -15,7 +15,7 @@ const gfsObjectArr = {
         residential:`<h3 style='font-family:Arial'>Residential Plots</h3> <p>Housing rates block wise and additional charges. <br></p> Press 1: For block 1 <br> Press 2: For block 5 <br> Press 3: For block 6 <br> Press 4: For bolan block <br> Press 5: For additional charges detail`, 
     
 
-        block1:`<h4>Block 1</h4> 80 SQ Yds. 550,000 down payment Total cost 23lac <br> 120 SQ Yds. 6lac down payment Total cost 29lac`,
+        block1:`<h4>Block 1</h4> 80 SQ Yds. 550,000 down payment Total cost 23lac <br> 120 SQ Yds. 6lac down payment Total cost 29lac <br><a herf="https://wa.me/923111484053">For more details</a>`,
 
     
         block5:`<h4>Block 5</h4> 80 SQ Yds. 5lac down payment Total cost 23lac <br> 120 SQ Yds. 5lac down payment Total cost 28lac`,
