@@ -69,7 +69,7 @@ const gfsObjectArr = {
         40 Sq. Ft Shop: 680,000 <br>
         50 Sq. Ft Shop: 850,000 <br>
         80 Sq.Ft Shop: 1,360,000 <br>
-        <br><a href="https://wa.me/923111484053">For more details</a><>br
+        <br><a href="https://wa.me/923111484053">For more details</a>
         <h5>2nd Floor:</h5>
         40 Sq. Ft Shop: 640,000 <br>
         50 Sq. Ft Shop: 800,000 <br>
