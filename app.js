@@ -137,7 +137,9 @@ sendBotton.addEventListener('click',function () {
       userInput.value = ''
         userInput2.style.display = 'block'
         userInput.style.display = 'none'
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput.value == 2) {
         userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.commercial}</li>`
@@ -145,17 +147,23 @@ sendBotton.addEventListener('click',function () {
         userInput3.style.display = 'block'
         userInput2.style.display = 'none'
         userInput.style.display = 'none'
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput.value > 2 ) {
         userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
         userInput.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput.value !== '') {
         userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
         userInput.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
 })
 function handleEnterKey(event) {
@@ -168,7 +176,9 @@ function handleEnterKey(event) {
           userInput.value = ''
             userInput2.style.display = 'block'
             userInput.style.display = 'none'
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
           }
           if (userInput.value == 2) {
             userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.commercial}</li>`
@@ -176,17 +186,23 @@ function handleEnterKey(event) {
             userInput3.style.display = 'block'
             userInput2.style.display = 'none'
             userInput.style.display = 'none'
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
           }
           if (userInput.value > 2 ) {
             userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
             userInput.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
           }
           if (userInput.value !== '') {
             userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
             userInput.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
           }
           
         
@@ -202,45 +218,59 @@ sendBotton2.addEventListener('click',function () {
       userInput.style.display = 'block'
           userInput2.style.display = 'none'
           userInput2.value = ''
-          
+          sendBotton.style.display = 'none'
+          sendBotton2.style.display = 'none'
+          sendBotton3.style.display = 'none'
     }
     if (userInput2.value == 2) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block5}</li>`
       userInput.style.display = 'block'
           userInput2.style.display = 'none'
           userInput2.value = ''
-          
+          sendBotton.style.display = 'none'
+          sendBotton2.style.display = 'none'
+          sendBotton3.style.display = 'none'
     }
     if (userInput2.value == 3) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block6}</li>`
       userInput.style.display = 'block'
           userInput2.style.display = 'none'
           userInput2.value = ''
-          
+          sendBotton.style.display = 'none'
+          sendBotton2.style.display = 'none'
+          sendBotton3.style.display = 'none'
     }
     if (userInput2.value == 4) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.bolanBlock}</li>`
       userInput.style.display = 'block'
           userInput2.style.display = 'none'
           userInput2.value = ''
-          
+          sendBotton.style.display = 'none'
+          sendBotton2.style.display = 'none'
+          sendBotton3.style.display = 'none'
     }
     if (userInput2.value == 5) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.additional}</li>`
       userInput.style.display = 'block'
           userInput2.style.display = 'none'
           userInput2.value = ''
-          
+          sendBotton.style.display = 'none'
+          sendBotton2.style.display = 'none'
+          sendBotton3.style.display = 'none'
     }
     if (userInput2.value > 5 ) {
       userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
       userInput2.value = ''
-      
+      sendBotton.style.display = 'none'
+      sendBotton2.style.display = 'none'
+      sendBotton3.style.display = 'none'
     }
     if (userInput2.value !== '') {
       userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
       userInput2.value = ''
-      
+      sendBotton.style.display = 'none'
+      sendBotton2.style.display = 'none'
+      sendBotton3.style.display = 'none'
     }
 })
 function handlEnterKey(even) {
@@ -253,45 +283,59 @@ function handlEnterKey(even) {
         userInput.style.display = 'block'
             userInput2.style.display = 'none'
             userInput2.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
       }
       if (userInput2.value == 2) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block5}</li>`
         userInput.style.display = 'block'
             userInput2.style.display = 'none'
             userInput2.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
       }
       if (userInput2.value == 3) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block6}</li>`
         userInput.style.display = 'block'
             userInput2.style.display = 'none'
             userInput2.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
       }
       if (userInput2.value == 4) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.bolanBlock}</li>`
         userInput.style.display = 'block'
             userInput2.style.display = 'none'
             userInput2.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
       }
       if (userInput2.value == 5) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.additional}</li>`
         userInput.style.display = 'block'
             userInput2.style.display = 'none'
             userInput2.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
       }
       if (userInput2.value > 5 ) {
         userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
         userInput2.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput2.value !== '') {
         userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
         userInput2.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
     }
   }
@@ -303,45 +347,59 @@ sendBotton3.addEventListener('click',function () {
       userInput.style.display = 'block'
           userInput3.style.display = 'none'
           userInput3.value = ''
-          
+          sendBotton.style.display = 'none'
+          sendBotton2.style.display = 'none'
+          sendBotton3.style.display = 'none'
     }
     if (userInput3.value == 2) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.saddarMobile}</li>`
       userInput.style.display = 'block'
       userInput3.style.display = 'none'
       userInput3.value = ''
-      
+      sendBotton.style.display = 'none'
+      sendBotton2.style.display = 'none'
+      sendBotton3.style.display = 'none'
     }
     if (userInput3.value == 3) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.megaBazar}</li>`
       userInput.style.display = 'block'
           userInput3.style.display = 'none'
           userInput3.value = ''
-          
+          sendBotton.style.display = 'none'
+          sendBotton2.style.display = 'none'
+          sendBotton3.style.display = 'none'
     }
     if (userInput3.value == 4) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.ZainabMarket}</li>`
       userInput.style.display = 'block'
       userInput3.style.display = 'none'
       userInput3.value = ''
-      
+      sendBotton.style.display = 'none'
+      sendBotton2.style.display = 'none'
+      sendBotton3.style.display = 'none'
     }
     if (userInput3.value == 5) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.northTown}</li>`
       userInput.style.display = 'block'
       userInput3.style.display = 'none'
       userInput3.value = ''
-      
+      sendBotton.style.display = 'none'
+      sendBotton2.style.display = 'none'
+      sendBotton3.style.display = 'none'
     }
     if (userInput3.value > 5 ) {
       userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
       userInput3.value = ''
-      
+      sendBotton.style.display = 'none'
+      sendBotton2.style.display = 'none'
+      sendBotton3.style.display = 'none'
     }
     if (userInput3.value !== '') {
       userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
       userInput3.value = ''
-      
+      sendBotton.style.display = 'none'
+      sendBotton2.style.display = 'none'
+      sendBotton3.style.display = 'none'
     }
 })
 function handEnterKey(eve) {
@@ -354,45 +412,59 @@ function handEnterKey(eve) {
         userInput.style.display = 'block'
             userInput3.style.display = 'none'
             userInput3.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
       }
       if (userInput3.value == 2) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.saddarMobile}</li>`
         userInput.style.display = 'block'
         userInput3.style.display = 'none'
         userInput3.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput3.value == 3) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.megaBazar}</li>`
         userInput.style.display = 'block'
             userInput3.style.display = 'none'
             userInput3.value = ''
-           
+            sendBotton.style.display = 'none'
+            sendBotton2.style.display = 'none'
+            sendBotton3.style.display = 'none'
       }
       if (userInput3.value == 4) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.ZainabMarket}</li>`
         userInput.style.display = 'block'
         userInput3.style.display = 'none'
         userInput3.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput3.value == 5) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.northTown}</li>`
         userInput.style.display = 'block'
         userInput3.style.display = 'none'
         userInput3.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput3.value > 5 ) {
         userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
         userInput3.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
       if (userInput3.value !== '') {
         userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.message}</li>`
         userInput3.value = ''
-      
+        sendBotton.style.display = 'none'
+        sendBotton2.style.display = 'none'
+        sendBotton3.style.display = 'none'
       }
     }
   }
