@@ -18,40 +18,40 @@ const gfsObjectArr = {
         block1:`<h4>Block 1</h4> 80 SQ Yds. 550,000 down payment Total cost 23lac <br> 120 SQ Yds. 6lac down payment Total cost 29lac <br><a href="https://wa.me/923111484053">For more details</a>`,
 
     
-        block5:`<h4>Block 5</h4> 80 SQ Yds. 5lac down payment Total cost 23lac <br> 120 SQ Yds. 5lac down payment Total cost 28lac`,
+        block5:`<h4>Block 5</h4> 80 SQ Yds. 5lac down payment Total cost 23lac <br> 120 SQ Yds. 5lac down payment Total cost 28lac<br><a href="https://wa.me/923111484053">For more details</a>`,
 
     
-            block6:`<h4>Block 6</h4> 80 SQ Yds. 350,000 down payment Total cost 21lac <br> 120 SQ Yds. 4lac down payment Total cost 27lac`,
+            block6:`<h4>Block 6</h4> 80 SQ Yds. 350,000 down payment Total cost 21lac <br> 120 SQ Yds. 4lac down payment Total cost 27lac<br><a href="https://wa.me/923111484053">For more details</a>`,
 
     
-           bolanBlock:`<h4>Bolan Block</h4> 80 SQ Yds. 350000 down payment Total cost 21lac <br> 120 SQ Yds. 4lac down payment Total cost 27lac <br> Executive Bolan Corner 100 SQ Yds.<br> For side corner plots.<br> 350000 down payment Total cost 26 lac`,
+           bolanBlock:`<h4>Bolan Block</h4> 80 SQ Yds. 350000 down payment Total cost 21lac <br> 120 SQ Yds. 4lac down payment Total cost 27lac <br> Executive Bolan Corner 100 SQ Yds.<br> For side corner plots.<br> 350000 down payment Total cost 26 lac<br><a href="https://wa.me/923111484053">For more details</a>`,
 
     
-            additional:`<h4>Additional Charges</h4> Additional charges for each plot will be added to the down payment.<br> Executive corner 1 lac <br> West open 1 lac <br> Road facing 1 lac <br> Park facing`,
+            additional:`<h4>Additional Charges</h4> Additional charges for each plot will be added to the down payment.<br> Executive corner 1 lac <br> West open 1 lac <br> Road facing 1 lac <br> Park facing<br><a href="https://wa.me/923111484053">For more details</a>`,
     
             commercial:`<h4>Commercial Area Detail</h4> Press 1: For Jodia Bazar <br> Press 2: For Saddar Mobile Mall <br> Press 3: For Mega Bazar <br> Press 4: For Zainab Market <br> Press 5: For North Town Mall <br>`,
     
             jodiaBazar:`<h4>Jodia Bazar</h4> <br>
         <h5>Shop 50 Sq.Ft:</h5>
-        Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 5,000 <br> Half Yearly Installment: 20,000<br> Possession: 100,000<br> Total Coast: 900,000 <br><br>
+        Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 5,000 <br> Half Yearly Installment: 20,000<br> Possession: 100,000<br> Total Coast: 900,000 <br><br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>Shop 55 Sq.Ft:</h5>
-        Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 5,000 <br> Half Yearly Installment: 29,000<br> Possession: 100,000<br> Total Coast: 990,000 <br><br>
+        Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 5,000 <br> Half Yearly Installment: 29,000<br> Possession: 100,000<br> Total Coast: 990,000 <br><br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>Shop 80 Sq.Ft:</h5>
-        Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 5,000 <br> Half Yearly Installment: 38,000<br> Possession: 100,000<br> Total Coast: 1,080,000`,
+        Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 5,000 <br> Half Yearly Installment: 38,000<br> Possession: 100,000<br> Total Coast: 1,080,000<br><a href="https://wa.me/923111484053">For more details</a>`,
     
         saddarMobile:`<h4>Saddar Mobile Mall</h4> <br> 
         <h5>Shop 40 Sq.Ft:</h5>
-        Booking: 2lac<br>Allocation: 150,000 <br> Confirmation: 150,000 <br>Monthly Installment: 5,000 <br> Yearly Installment: 24,000<br> Possession: 100,000<br> Total Coast: 1,020,000 <br><br>
+        Booking: 2lac<br>Allocation: 150,000 <br> Confirmation: 150,000 <br>Monthly Installment: 5,000 <br> Yearly Installment: 24,000<br> Possession: 100,000<br> Total Coast: 1,020,000 <br><br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>Shop 50 Sq.Ft:</h5>
-        Booking: 225,000<br>Allocation: 150,000 <br> Confirmation: 150,000 <br>Monthly Installment: 5,000 <br> Yearly Installment: 45,000<br> Possession: 150,000<br> Total Coast: 1,200,000 <br><br>
+        Booking: 225,000<br>Allocation: 150,000 <br> Confirmation: 150,000 <br>Monthly Installment: 5,000 <br> Yearly Installment: 45,000<br> Possession: 150,000<br> Total Coast: 1,200,000 <br><br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>Shop 80 Sq.Ft:</h5>
-        Booking: 250,000<br>Allocation: 150,000 <br> Confirmation: 150,000 <br>Monthly Installment: 10,000 <br> Yearly Installment: 80,000<br> Possession: 140,000<br> Total Coast: 1,690,000`,
+        Booking: 250,000<br>Allocation: 150,000 <br> Confirmation: 150,000 <br>Monthly Installment: 10,000 <br> Yearly Installment: 80,000<br> Possession: 140,000<br> Total Coast: 1,690,000<br><a href="https://wa.me/923111484053">For more details</a>`,
     
        megaBazar:`<h4>Mega Bazar</h4> <br>
          <h5>Ground Floor 50 Sq.Ft:</h5>
-         Booking: 2lac<br>Monthly Installment: 12,000 <br> Half Yearly Installment: 55,000<br> Possession: 130,000<br> Total Coast: 16Lac <br><br>
+         Booking: 2lac<br>Monthly Installment: 12,000 <br> Half Yearly Installment: 55,000<br> Possession: 130,000<br> Total Coast: 16Lac <br><br><a href="https://wa.me/923111484053">For more details</a><br>
          <h5>Ground Floor 70 Sq.Ft:</h5>
-         Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 18,000 <br> Half Yearly Installment: 70,000<br> Possession: 160,000<br> Total Coast: 2,240,000`,
+         Booking: 2lac<br>Allocation: 50,000 <br> Confirmation: 50,000 <br>Monthly Installment: 18,000 <br> Half Yearly Installment: 70,000<br> Possession: 160,000<br> Total Coast: 2,240,000<br><a href="https://wa.me/923111484053">For more details</a>`,
     
          
         ZainabMarket:`<h4>Zainab Market</h4> <br> 
@@ -59,40 +59,47 @@ const gfsObjectArr = {
 40 Sq. Ft Shop: 12lac <br>
 50 Sq. Ft Shop: 15lac <br>
 80 Sq.Ft Shop: 24 lac <br>
+<br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>Lower Ground:</h5>
         40 Sq. Ft Shop: 440,000 <br>
         50 Sq. Ft Shop: 550,000 <br>
         80 Sq.Ft Shop:  880,000 <br>
+        <br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>1st Floor:</h5>
         40 Sq. Ft Shop: 680,000 <br>
         50 Sq. Ft Shop: 850,000 <br>
         80 Sq.Ft Shop: 1,360,000 <br>
+        <br><a href="https://wa.me/923111484053">For more details</a><>br
         <h5>2nd Floor:</h5>
         40 Sq. Ft Shop: 640,000 <br>
         50 Sq. Ft Shop: 800,000 <br>
         80 Sq.Ft Shop:  1,280,000 <br>
+        <br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>3rd Floor:</h5>
         40 Sq. Ft Shop: 560,000 <br>        
         50 Sq. Ft Shop: 700,000 <br>
-        80 Sq.Ft Shop: 1,120,000 <br>`,
+        80 Sq.Ft Shop: 1,120,000 <br><br><a href="https://wa.me/923111484053">For more details</a>`,
     
         northTown:`<h4>North Town Mall</h4> <br>
         <h5>Upper Ground:</h5>
 40 Sq. Ft Shop: 1,440,000 <br>
 50 Sq. Ft Shop: 18lac <br>
 80 Sq.Ft Shop: 2,880,000 <br>
+<br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>Lower Ground:</h5>
         40 Sq. Ft Shop: 8lac <br>
         50 Sq. Ft Shop: 10lac <br>
         80 Sq.Ft Shop:  16lac <br>
+        <br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>1st Floor:</h5>
         40 Sq. Ft Shop: 8lac <br>
         50 Sq. Ft Shop: 10lac <br>
         80 Sq.Ft Shop:  16lac <br>
+        <br><a href="https://wa.me/923111484053">For more details</a><br>
         <h5>2nd Floor:</h5>
         40 Sq. Ft Shop: 720,000 <br>
         50 Sq. Ft Shop: 9lac <br>
-        80 Sq.Ft Shop:  1,440,000 <br>`
+        80 Sq.Ft Shop:  1,440,000 <br><br><a href="https://wa.me/923111484053">For more details</a>`
     
 
 
