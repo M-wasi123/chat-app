@@ -36,7 +36,7 @@ body {
     position: relative;
 }
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 3px;
     border-radius: 10px;
     box-shadow: inset 0px 0px 4px rgb(158, 158, 158);
 }
