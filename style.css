@@ -43,9 +43,9 @@ body {
 ::-webkit-scrollbar:hover {
     width: 16px
 }
-::-webkit-scrollbar:active {
+/* ::-webkit-scrollbar:active {
     width: 16px
-    }
+    } */
 ::-webkit-scrollbar-thumb {
     
     border-radius: 10px;
