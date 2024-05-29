@@ -40,15 +40,8 @@ body {
     border-radius: 10px;
     box-shadow: inset 0px 0px 4px rgb(158, 158, 158);
 }
-::-webkit-scrollbar-thumb:hover {
-    width: 16px;
-    background-color: grey;
-}
-/* ::-webkit-scrollbar:active {
-    width: 16px
-    } */
 ::-webkit-scrollbar-thumb {
-    
+    width:4px;
     border-radius: 10px;
     background-color: #f0eeee;
 }
