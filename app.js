@@ -131,8 +131,7 @@ if (userInput3.value === '') {
 }
 })
 sendBotton.addEventListener('click',function () {
-    userMessage.innerHTML +=`<li class="user">${userInput.value}</li>`
-    autoScroll() 
+    userMessage.innerHTML +=`<li class="user">${userInput.value}</li>` 
       if (userInput.value == 1) {
       userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.residential}</li>`
       userInput.value = ''
@@ -166,13 +165,13 @@ sendBotton.addEventListener('click',function () {
         sendBotton2.style.display = 'none'
         sendBotton3.style.display = 'none'
       }
+      autoScroll() 
 })
 function handleEnterKey(event) {
     if (event.key === 'Enter') {
         event.preventDefault();
         document.getElementById('send-btn');
         userMessage.innerHTML +=`<li class="user">${userInput.value}</li>`
-        autoScroll() 
           if (userInput.value == 1) {
           userMessage.innerHTML += `<li class='${gfsObjectArr.id}'>${gfsObjectArr.residential}</li>`
           userInput.value = ''
@@ -207,7 +206,7 @@ function handleEnterKey(event) {
             sendBotton3.style.display = 'none'
           }
           
-        
+          autoScroll() 
         
         
     }
@@ -215,7 +214,6 @@ function handleEnterKey(event) {
 document.addEventListener('keydown',handleEnterKey)
 sendBotton2.addEventListener('click',function () {
     userMessage.innerHTML +=`<li class="user">${userInput2.value}</li>`
-    autoScroll() 
     if (userInput2.value == 1) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block1}</li>`
       userInput.style.display = 'block'
@@ -275,13 +273,13 @@ sendBotton2.addEventListener('click',function () {
       sendBotton2.style.display = 'none'
       sendBotton3.style.display = 'none'
     }
+    autoScroll() 
 })
 function handlEnterKey(even) {
   if (even.key === 'Enter') {
       even.preventDefault();
       document.getElementById('send-btn2');
       userMessage.innerHTML +=`<li class="user">${userInput2.value}</li>`
-      autoScroll() 
       if (userInput2.value == 1) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.block1}</li>`
         userInput.style.display = 'block'
@@ -341,12 +339,12 @@ function handlEnterKey(even) {
         sendBotton2.style.display = 'none'
         sendBotton3.style.display = 'none'
       }
+      autoScroll() 
     }
   }
 document.addEventListener('keydown',handlEnterKey)
 sendBotton3.addEventListener('click',function () {
     userMessage.innerHTML +=`<li class="user">${userInput3.value}</li>`
-    autoScroll() 
     if (userInput3.value == 1) {
       userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.jodiaBazar}</li>`
       userInput.style.display = 'block'
@@ -406,13 +404,13 @@ sendBotton3.addEventListener('click',function () {
       sendBotton2.style.display = 'none'
       sendBotton3.style.display = 'none'
     }
+    autoScroll() 
 })
 function handEnterKey(eve) {
   if (eve.key === 'Enter') {
       eve.preventDefault();
       document.getElementById('send-btn3');
       userMessage.innerHTML +=`<li class="user">${userInput3.value}</li>`
-      autoScroll() 
       if (userInput3.value == 1) {
         userMessage.innerHTML +=`<li class="${gfsObjectArr.id}">${gfsObjectArr.jodiaBazar}</li>`
         userInput.style.display = 'block'
@@ -472,6 +470,7 @@ function handEnterKey(eve) {
         sendBotton2.style.display = 'none'
         sendBotton3.style.display = 'none'
       }
+      autoScroll() 
     }
   }
 document.addEventListener('keydown',handEnterKey)
@@ -489,5 +488,5 @@ function commercial() {
 }
 
 function autoScroll() {
-chatBox.scrollTo(0, 100000)
+chatBox.scrollTop = chatBox.scrollHeight
 }
